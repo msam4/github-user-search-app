@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github User Search App</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="head">devfinder</div>
+    <div class="light-dark mode">
+      <button class="color-mode-btn light--hidden" aria-label="Toggle light mode">
+        LIGHT
+        <i class="fa-regular fa-sun"></i>
+      </button>
+      <button class="color-mode-btn dark--hidden" aria-label="Toggle dark mode">
+        DARK
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="search">
+    <div class="searchText">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search Github username">
+    </div>
+    <div class="searchbtn">Search</div>
+  </div>
+
+  <div class="resultBody">
+    <div class="githubHead">
+      <div class="profileImg"></div>
+      <div class="githubInfo">
+        <div class="githubUser">Github Username</div>
+        <div class="githubUserName">@GithubUserName</div>
+        <div class="githubJoinDate">Joined Date</div>
+      </div>
+    </div>
+
+    <div class="githubFact">
+      <div class="githubBio">Github Bio...</div>
+
+      <div class="githubRepo">
+        <div class="repos">
+          <div class="repoHeading">Repos</div>
+          <div class="repoTotal">0</div>
+        </div>
+        <div class="followers">
+          <div class="followersHeading">Followers</div>
+          <div class="followersTotal">0</div>
+        </div>
+        <div class="following">
+          <div class="followingHeading">Following</div>
+          <div class="repoTotal">0</div>
+        </div>
+      </div>
+
+      <div class="githubSocial">
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="locations">Location</p>
+        </div>
+        <div class="twitter">
+          <i class="fa-brands fa-twitter"></i>
+          <p class="twit">Twitter</p>
+        </div>
+        <div class="website">
+          <i class="fa-solid fa-globe"></i>
+          <p class="websites">Website</p>
+        </div>
+        <div class="company">
+          <i class="fa-solid fa-building"></i>
+          <p class="companies">Company</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
