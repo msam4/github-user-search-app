@@ -37,9 +37,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Libre Franklin", sans-serif;
-  font-family: "Outfit", sans-serif;
-  font-family: "Red Hat Text", sans-serif;
   font-family: "Space Mono", sans-serif;
 }
 
@@ -224,14 +221,14 @@ header {
 }
 
 .repoHeading,
-.followerHeading,
+.followersHeading,
 .followingHeading {
   font-size: 13px;
   color: var(--follow-color-);
 }
 
 .repoTotal,
-.followerTotal,
+.followersTotal,
 .followingTotal {
   font-size: 22px;
   font-weight: bold;
