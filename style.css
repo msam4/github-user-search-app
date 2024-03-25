@@ -250,6 +250,9 @@ header {
   display: flex;
   align-items: center;
   font-size: 15px;
+  /* Temporary fix for websites if they overflow  */
+  overflow: hidden;
+  margin-right: 16px;
 }
 
 .location i,
