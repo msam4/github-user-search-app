@@ -250,9 +250,12 @@ header {
   display: flex;
   align-items: center;
   font-size: 15px;
-  /* Temporary fix for websites if they overflow  */
+  /* Temporary fix for portfolio links if they overflow  */
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
   margin-right: 16px;
+  max-width: 100%;
 }
 
 .location i,
